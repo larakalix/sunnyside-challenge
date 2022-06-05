@@ -8,6 +8,7 @@ module.exports = {
                 "dark-des-cyan": "#25564b",
                 "dark-blue": "#19536b",
                 "dark-mod-cyan": "#458c7e",
+                "footer-cyan": "#90d4c5",
                 "very-dark-des-blue": "#23303e",
                 "very-dark-grayish-blue": "#5a636c",
                 "dark-grayish-blue": "#818498",
