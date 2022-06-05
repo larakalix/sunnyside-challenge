@@ -6,7 +6,7 @@ export const Footer = () => {
         <footer className="flex flex-col items-center justify-center bg-footer-cyan w-full py-12">
             <img src={images.Logo} alt="Sunnyside" />
 
-            <ul className="flex items-center justify-center space-x-16 my-8">
+            <ul className="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-x-16 my-8">
                 {APP_NAVIGATION.map((title) => (
                     <li key={title}>
                         <a href="#!" className="text-dark-des-cyan capitalize">

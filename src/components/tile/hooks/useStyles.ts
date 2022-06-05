@@ -1,7 +1,7 @@
 import clsx from "clsx";
 
 interface Props {
-    validate: string | undefined;
+    validate: boolean;
     headingColor: string | undefined;
     infoColor: string | undefined;
 }
@@ -21,7 +21,7 @@ export const useStyles = ({ validate, headingColor, infoColor }: Props) => {
     const infoStyles = clsx({
         [`${headingColor!}`]: infoColor,
         ["text-dark-grayish-blue"]: !infoColor,
-        ["px-[6rem] pb-4"]: validate,
+        ["px-14 pb-4"]: validate,
     });
 
     return {

@@ -7,8 +7,8 @@ interface Props {
 
 export const TestimonialBox = ({ testimonials }: Props) => {
     return (
-        <section className="text-center flex flex-col items-center justify-center max-w-[80%]">
-            <h1 className="my-14 font-fraunces uppercase text-[1rem] tracking-widest text-grayish-blue">
+        <section className="text-center flex flex-col items-center justify-center max-w-[80%] py-4 md:py-12">
+            <h1 className="my-14 font-fraunces uppercase text-[1rem] md:text-[1.2rem] lg:text-[1.6rem] xl:text-[2rem] tracking-widest text-grayish-blue">
                 Client testimonials
             </h1>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-0">
